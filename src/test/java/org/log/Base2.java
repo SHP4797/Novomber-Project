@@ -195,7 +195,7 @@ public class Base2 {
 			w.write(stream1);
 			}
 
-	/*		
+		
 		public static void main(String[] args) throws InterruptedException, IOException {
 		Base2 a = new Base2();
 		a.Browser2("http://demo.automationtesting.in/Register.html");
@@ -211,19 +211,7 @@ public class Base2 {
 		a.excelread("F:\\Hari\\Table.xlsx", "AKI", 1,0 );
 		
 		
-		a.Browser2("https://www.google.co.in/");
-		WebElement Lo = a.locator("xpath", "(//a[@class='gb_3 gb_4 gb_3d gb_3c'])");
-		a.bttnclick(Lo);
-		a.action(Lo);
-		a.Browser2("http://demo.guru99.com/test/drag_drop.html");
-		WebElement locator = a.locator("id", "credit2");
-		WebElement locator2 = a.locator("id", "bank");
-		a.DragandDrop(locator, locator2);
-		a.Navigation("http://www.greenstechnologys.com/");
-		a.Browser2("http://demo.automationtesting.in/Alerts.html");
-		WebElement locator3 = a.locator("xpath", "//button[@class='btn btn-danger']");
-		a.bttnclick(locator3);
-		a.Alert(locator3);
+		
 		Thread.sleep(3000);
 		a.javaScroll(locator3);
 		a.Browser2("https://www.facebook.com/");
@@ -231,7 +219,7 @@ public class Base2 {
 		a.JAVASCRIPT(JE);
 		WebElement fbh = a.locator("id", "email");
 		a.JAVASCRIPT(fbh);
-			*/
+		
 	}
 		
 	
