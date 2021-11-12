@@ -195,7 +195,7 @@ public class Base2 {
 			w.write(stream1);
 			}
 
-	/*		
+	
 		public static void main(String[] args) throws InterruptedException, IOException {
 		Base2 a = new Base2();
 		a.Browser2("http://demo.automationtesting.in/Register.html");
@@ -231,7 +231,7 @@ public class Base2 {
 		a.JAVASCRIPT(JE);
 		WebElement fbh = a.locator("id", "email");
 		a.JAVASCRIPT(fbh);
-			*/
+			
 	}
 		
 	
